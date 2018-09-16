@@ -16,8 +16,15 @@ main {
 .emptyBox {
 	width: 15px;
 	height: 15px;
-	border: 1px solid green;
+	border: 1px solid lightgrey;
 	background: white;
+}
+
+.paintedBox {
+	width: 15px;
+	height: 15px;
+	border: 1px solid lightgrey;
+	background: black;
 }
 
 .rowElement {
