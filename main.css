@@ -1,0 +1,27 @@
+body {
+	background-color: lightblue;
+}
+
+.playButton {
+	padding: 10;
+	color: blue;
+	background: yellow;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+}
+
+.emptyBox {
+	width: 15px;
+	height: 15px;
+	border: 1px solid green;
+	background: white;
+}
+
+.rowElement {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+}
